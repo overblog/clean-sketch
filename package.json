@@ -1,6 +1,6 @@
 {
   "name": "clean-sketch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cleanup Sketch SVG files",
   "license": "MIT",
   "repository": "overblog/clean-sketch",
