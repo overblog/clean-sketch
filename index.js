@@ -31,7 +31,7 @@ module.exports = function(doc) {
 };
 
 function tag(name) {
-  return RegExp('<' + name + '>(.|[\n\r\s])*</' + name + '>', 'gi');
+  return RegExp('<' + name + '>(?:.|[\n\r\s])*</' + name + '>', 'gi');
 }
 
 function attr(name) {
